@@ -258,6 +258,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    overflow: visible;
 }
 
 .watch {
@@ -265,6 +266,7 @@ main {
     width: 600px;
     height: 600px;
     margin: 0 auto;
+    overflow: visible;
 }
 
 .watch-bezel {
@@ -299,7 +301,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    overflow: hidden;
+    overflow: visible;
     border: 3px solid #ffffff;
 }
 
@@ -422,6 +424,7 @@ main {
     align-items: center;
     gap: 20px;
     padding-top: 15px;
+    overflow: visible;
 }
 
 .date-section {
@@ -471,6 +474,7 @@ main {
     width: 100%;
     max-width: 350px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .input-field {
@@ -799,8 +803,23 @@ footer {
     }
 
     .date-inputs {
-        max-width: 280px;
+        flex-direction: column;
+        max-width: 130px;
         gap: 8px;
+        width: 100%;
+    }
+    
+    .input-field {
+        width: 100%;
+    }
+    
+    .input-field input,
+    .input-field select {
+        aspect-ratio: 1;
+        width: 100%;
+        height: auto;
+        padding: 12px;
+        text-align: center;
     }
 
     .input-field label {
@@ -836,17 +855,46 @@ footer {
     .watch {
         width: 350px;
         height: 350px;
+        overflow: visible;
+    }
+    
+    .watch-wrapper {
+        overflow: visible;
     }
 
     .date-inputs-inside {
         padding-top: 10px;
-        gap: 15px;
+        gap: 18px;
+        overflow: visible;
+    }
+    
+    .watch-face {
+        overflow: visible;
+        padding: 15px;
+    }
+    
+    .date-section {
+        gap: 8px;
     }
 
     .date-inputs {
         flex-direction: column;
-        max-width: 220px;
-        gap: 10px;
+        max-width: 120px;
+        gap: 8px;
+        width: 100%;
+    }
+    
+    .input-field {
+        width: 100%;
+    }
+    
+    .input-field input,
+    .input-field select {
+        aspect-ratio: 1;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
     }
 
     .watch-label {
@@ -887,7 +935,32 @@ footer {
     }
 
     .date-inputs {
-        max-width: 180px;
+        flex-direction: column;
+        max-width: 110px;
+        width: 100%;
+        gap: 6px;
+    }
+    
+    .input-field {
+        width: 100%;
+    }
+    
+    .input-field input,
+    .input-field select {
+        aspect-ratio: 1;
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    .date-inputs-inside {
+        padding: 10px 5px;
+        gap: 15px;
+    }
+    
+    .date-section {
+        gap: 8px;
     }
 
     .input-field input,
