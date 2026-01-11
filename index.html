@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Difference Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="date-time-display">
+        <div id="currentDate"></div>
+        <div id="currentTime"></div>
+    </div>
+    <div class="years-background">
+        <span class="year-text">2026</span>
+        <span class="year-text">2025</span>
+        <span class="year-text">2024</span>
+        <span class="year-text">2023</span>
+        <span class="year-text">2022</span>
+        <span class="year-text">2021</span>
+        <span class="year-text">2020</span>
+        <span class="year-text">2019</span>
+        <span class="year-text">2018</span>
+        <span class="year-text">2017</span>
+        <span class="year-text">2016</span>
+        <span class="year-text">2015</span>
+        <span class="year-text">2014</span>
+        <span class="year-text">2013</span>
+        <span class="year-text">2012</span>
+        <span class="year-text">2011</span>
+        <span class="year-text">2010</span>
+        <span class="year-text">2009</span>
+        <span class="year-text">2008</span>
+        <span class="year-text">2007</span>
+        <span class="year-text">2006</span>
+        <span class="year-text">2005</span>
+        <span class="year-text">2004</span>
+        <span class="year-text">2003</span>
+        <span class="year-text">2002</span>
+        <span class="year-text">2001</span>
+        <span class="year-text">2000</span>
+        <span class="year-text">1999</span>
+        <span class="year-text">1998</span>
+        <span class="year-text">1997</span>
+        <span class="year-text">1996</span>
+        <span class="year-text">1995</span>
+        <span class="year-text">1994</span>
+        <span class="year-text">1993</span>
+        <span class="year-text">1992</span>
+        <span class="year-text">1991</span>
+        <span class="year-text">1990</span>
+        <span class="year-text">1989</span>
+        <span class="year-text">1988</span>
+        <span class="year-text">1987</span>
+        <span class="year-text">1986</span>
+        <span class="year-text">1985</span>
+        <span class="year-text">1984</span>
+        <span class="year-text">1983</span>
+        <span class="year-text">1982</span>
+        <span class="year-text">1981</span>
+        <span class="year-text">1980</span>
+        <span class="year-text">1979</span>
+        <span class="year-text">1978</span>
+        <span class="year-text">1977</span>
+        <span class="year-text">1976</span>
+        <span class="year-text">1975</span>
+        <span class="year-text">1974</span>
+        <span class="year-text">1973</span>
+        <span class="year-text">1972</span>
+        <span class="year-text">1971</span>
+        <span class="year-text">1970</span>
+        <span class="year-text">1969</span>
+        <span class="year-text">1968</span>
+        <span class="year-text">1967</span>
+        <span class="year-text">1966</span>
+        <span class="year-text">1965</span>
+        <span class="year-text">1964</span>
+        <span class="year-text">1963</span>
+        <span class="year-text">1962</span>
+        <span class="year-text">1961</span>
+        <span class="year-text">1960</span>
+        <span class="year-text">1959</span>
+        <span class="year-text">1958</span>
+        <span class="year-text">1957</span>
+        <span class="year-text">1956</span>
+        <span class="year-text">1955</span>
+        <span class="year-text">1954</span>
+        <span class="year-text">1953</span>
+        <span class="year-text">1952</span>
+        <span class="year-text">1951</span>
+        <span class="year-text">1950</span>
+    </div>
+    <div class="container">
+        <header>
+            <h1><span class="calendar-icon"></span> Date Difference Calculator</h1>
+            <p>Calculate the exact difference between two dates</p>
+            <p class="credit">Created by Samuel Nhyira Cann</p>
+            <p class="contact-link"><a href="mailto:iamsamuelcann@gmail.com">Contact the creator</a></p>
+        </header>
+
+        <main>
+            <div class="calculator-section">
+                <div class="watch-wrapper">
+                    <div class="watch">
+                        <div class="watch-bezel"></div>
+                        <div class="watch-face">
+                            <div class="watch-crown"></div>
+                            <div class="watch-hands">
+                                <div class="hand hour-hand"></div>
+                                <div class="hand minute-hand"></div>
+                                <div class="hand second-hand"></div>
+                                <div class="watch-center"></div>
+                            </div>
+                            <div class="watch-markers">
+                                <span class="marker">12</span>
+                                <span class="marker">3</span>
+                                <span class="marker">6</span>
+                                <span class="marker">9</span>
+                            </div>
+                            <div class="date-inputs-inside">
+                                <div class="date-section">
+                                    <h3 class="watch-label">Start Date</h3>
+                                    <div class="date-inputs">
+                                        <div class="input-field">
+                                            <label for="startDay">Day</label>
+                                            <select id="startDay" required>
+                                                <option value="">Day</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="startMonth">Month</label>
+                                            <select id="startMonth" required>
+                                                <option value="">Month</option>
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="startYear">Year</label>
+                                            <select id="startYear" required>
+                                                <option value="">Year</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="date-section">
+                                    <h3 class="watch-label">End Date</h3>
+                                    <div class="date-inputs">
+                                        <div class="input-field">
+                                            <label for="endDay">Day</label>
+                                            <select id="endDay" required>
+                                                <option value="">Day</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="endMonth">Month</label>
+                                            <select id="endMonth" required>
+                                                <option value="">Month</option>
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="endYear">Year</label>
+                                            <select id="endYear" required>
+                                                <option value="">Year</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="calculateBtn" class="btn-primary">Calculate Difference</button>
+
+                <div id="result" class="result-container">
+                    <div class="trophy-animation" id="trophyAnimation">
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                    </div>
+                    <div id="resultText" class="result-text"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Date Difference Calculator. Hosted on GitHub Pages.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
